@@ -1,0 +1,77 @@
+@media print {
+    @page {
+      size: A4 portrait;  /* A4 size in portrait orientation */
+      margin: 10mm;       /* A small margin so headings/logos are not cut off */
+    }
+  
+    html, body {
+      margin: 0;
+      padding: 0;
+      /* Let the browser handle any necessary page breaks or scaling */
+      overflow: visible;
+      font-family: Arial, sans-serif;
+      font-size: 10pt;  /* Adjust as needed to fit your content */
+      line-height: 1.2;
+    }
+  
+    .container {
+      /* Let the container auto-size within the page margins */
+      width: auto;
+      margin: 0 auto;
+      page-break-inside: avoid;
+    }
+  
+    /* Logo: small, top-left, not centered if you prefer top-left. 
+       Adjust as needed for your layout. */
+    .logo-container {
+      text-align: left !important;
+      margin-bottom: 5px;
+    }
+    .logo-container img.logo {
+      width: 50px !important;  /* small logo */
+      height: auto !important;
+      object-fit: contain !important;
+      display: inline-block !important;
+      margin: 0 !important;
+      page-break-inside: avoid !important;
+    }
+  
+    /* Headings with no clipping */
+    h1, h2, h3, h5 {
+      margin: 5px 0;
+      page-break-inside: avoid;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 5px;
+      page-break-inside: avoid;
+    }
+  
+    th, td {
+      text-align: left;
+      padding: 4px;
+      border: 1px solid #000;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+  
+    .output-group {
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: right;
+      page-break-inside: avoid;
+    }
+  
+    /* Hide interactive buttons and form elements on print */
+    button, 
+    .button-container,
+    .question-section > div[id^="question"] {
+      display: none !important;
+    }
+  }
+  

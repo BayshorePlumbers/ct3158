@@ -1,0 +1,852 @@
+[
+ {
+   "Code": "WH-1-3.0",
+   "Name": "30 Gallon Gas Water Heater Swap Out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-2-3.0",
+   "Name": "30 Gallon Shorty Gas Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-3-3.0",
+   "Name": "40 Gallon Gas Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-4-3.5",
+   "Name": "40 Gallon Gas Water Heater installation with misc parts",
+   "Standard times (In Hours)": 3.5
+ },
+ {
+   "Code": "WH-5-3.0",
+   "Name": "40 Gallon Electric Water Heater",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-6-3.0",
+   "Name": "40 Gallon Shorty Gas Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-7-3.5",
+   "Name": "40 Gallon Shorty Gas Water Heater installation with misc parts",
+   "Standard times (In Hours)": 3.5
+ },
+ {
+   "Code": "WH-8-3.0",
+   "Name": "40 Gallon POWER VENT",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-9-3.0",
+   "Name": "50 Gallon Gas Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-10-3.5",
+   "Name": "50 Gallon Gas Water Heater Installation with misc. parts",
+   "Standard times (In Hours)": 3.5
+ },
+ {
+   "Code": "WH-11-3.0",
+   "Name": "50 Gallon Shorty Gas Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-12-3.5",
+   "Name": "50 Gallon Shorty Gas Water Heater Installation with misc. parts",
+   "Standard times (In Hours)": 3.5
+ },
+ {
+   "Code": "WH-13-3.0",
+   "Name": "50gallon POWER VENT",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-14-4.0",
+   "Name": "75 Gallon Gas Water Heater Swap Out",
+   "Standard times (In Hours)": 4
+ },
+ {
+   "Code": "WH-15-5.0",
+   "Name": "75 Gallon Gas Water Heater installation with misc parts",
+   "Standard times (In Hours)": 5
+ },
+ {
+   "Code": "WH-16-6.0",
+   "Name": "100 Gallon Gas Water Heater Swap out",
+   "Standard times (In Hours)": 6
+ },
+ {
+   "Code": "WH-17-6.0",
+   "Name": "100 Gallon Gas Water Heater Installation with misc parts (Residential)",
+   "Standard times (In Hours)": 6
+ },
+ {
+   "Code": "WH-18",
+   "Name": "Commercial Water Heater Installation",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "WH-19-4.5",
+   "Name": "Swap Out Tankless Water Heater (RSC 199)",
+   "Standard times (In Hours)": 4.5
+ },
+ {
+   "Code": "WH-20-8.0",
+   "Name": "Install New Tankless Water Heater (Indoor)",
+   "Standard times (In Hours)": 8
+ },
+ {
+   "Code": "WH-21-8.0",
+   "Name": "Install New Tankless Water Heater (Outdoor)",
+   "Standard times (In Hours)": 8
+ },
+ {
+   "Code": "WH-22-1.0",
+   "Name": "Descale and Flush Tankless Water Heater",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-23-1.0",
+   "Name": "Diagnostic for Tankless Water Heater",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-24-1.0",
+   "Name": "Neutralizer Kit",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-25-1.0",
+   "Name": "Expansion Tank",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-26-1.0",
+   "Name": "Sediment Filter",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-27-1.5",
+   "Name": "Run T&P to exterior",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "WH-28-1.0",
+   "Name": "Water Heater Gas Cock Valve",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-29-1.0",
+   "Name": "Pilot Assembly",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-30",
+   "Name": "1/2\" Recirculating line (Crawl Space)",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "WH-31-1.0",
+   "Name": "Ball Valve for Water Heater",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-32-1.0",
+   "Name": "Control Valve Replacement (Out of Warranty)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-33-1.5",
+   "Name": "Recirculating Pump",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "WH-35-1.0",
+   "Name": "Water heater pan swap",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-36-3.0",
+   "Name": "Premium 50 Gallon Gas American Standard 12 Year Warranty Water Heater Swap out",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "WH-37-6.0",
+   "Name": "Premium 50 Gallon Gas American Standard Shorebird 12 Year Warranty Water Heater Swap out",
+   "Standard times (In Hours)": 6
+ },
+ {
+   "Code": "WH-38-1.0",
+   "Name": "Burner Assembly",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "WH-39-1.0",
+   "Name": "Replace T&P",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-1-1.0",
+   "Name": "Bathtub/ Shower Clog",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-2-1.0",
+   "Name": "Kitchen Sink back-up - ACCESSIBLE CLEAN OUT",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-3-1.25",
+   "Name": "Kitchen Sink back-up - SNAKE UNDER SINK",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "DC-4-1.0",
+   "Name": "Lavatory/ Bathroom sink",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-5-2.0",
+   "Name": "Snake and Jet 2\" Kitchen Branch drain from accessible clean out",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "DC-6-2.0",
+   "Name": "Snake and Jet 3\" & 4\" branch drains from accessible clean out",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "DC-7-1.5",
+   "Name": "Toilet removal to snake",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "DC-8-1.0",
+   "Name": "Utility/ Garage Sink",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-9-1.0",
+   "Name": "Floor Drain (Commercial)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-10-1.0",
+   "Name": "Laundry/ Secondary Drain Line",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-11-1.0",
+   "Name": "Toilet Clog or Auger Toilet",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-12-1.0",
+   "Name": "Bar Sink",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-13-1.5",
+   "Name": "Commercial Floor Sink Stoppage",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "DC-14-1.5",
+   "Name": "Pedestal Lavy Sink Clog Remove Trap",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "DC-15-1.0",
+   "Name": "Video Camera Inspection of Sewer from Accessible Clean Out",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "DC-16-1.5",
+   "Name": "Video Inspection From Pulled Toilet",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "DC-17-2.0",
+   "Name": "Hydro Jet Drain Line",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "DC-18-2.0",
+   "Name": "Jetter  Scheduled Maintenance",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "DC-19-1.0",
+   "Name": "Snake Main Line from accessible clean out",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "L-1-1.25",
+   "Name": "Deck mount faucet",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "L-2-1.0",
+   "Name": "P-Trap (ABS Sch 40)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "L-3-1.0",
+   "Name": "Wash Machine Hoses",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "L-4-1.25",
+   "Name": "Wash Machine Valves Hot & Cold",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "L-5-4.0",
+   "Name": "Washer Box",
+   "Standard times (In Hours)": 4
+ },
+ {
+   "Code": "L-6-1.25",
+   "Name": "Wall Mount Faucet for the laundry",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "K-1-1.5",
+   "Name": "1 HP Garbage Disposal (Badger 5)",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-2-1.0",
+   "Name": "3/4 HP garbage Disposal (Badger 5)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-3-1.0",
+   "Name": "1/2 HP Garbage Disposal (Badger 5)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-4-1.0",
+   "Name": "Air Gap",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-5-2.0",
+   "Name": "All Sink Drains/ Brass",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "K-6-1.5",
+   "Name": "All Sink Drains/ ABS",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-7-1.0",
+   "Name": "Basket Strainer",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-8-1.0",
+   "Name": "Extension Tailpiece",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-9-1.0",
+   "Name": "Flange Tail",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-10-1.0",
+   "Name": "Ice Maker Refrigerator Supply",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-11-1.5",
+   "Name": "Insta Hot Standard Model",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-12-1.0",
+   "Name": "Owner Supplied Garbage Disposal",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-13-1.5",
+   "Name": "Rebuild Delta",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-14-1.5",
+   "Name": "Rebuild Pfister",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-15-1.0",
+   "Name": "Shut Off Valve Hot & Cold (dual angle stop)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-16-1.5",
+   "Name": "Kitchen Sink faucet repalcement",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-17-1.0",
+   "Name": "Supply Lines Hot & Cold",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-18-1.0",
+   "Name": "Install 1 1/2\" Plastic P Trap",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-19-1.0",
+   "Name": "Clear & Reset Jammed Disposal",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-20-1.0",
+   "Name": "Install 1 1/2\"  P Trap BRASS",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "K-21-1.25",
+   "Name": "Customer Provided Kitchen Sink Faucet Replacement",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "K-22-5.0",
+   "Name": "Kitchen 2\" Re-Drain upto 20'",
+   "Standard times (In Hours)": 5
+ },
+ {
+   "Code": "K-23-1.5",
+   "Name": "Wall Mount Faucet for the kitchen",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "K-24-3.0",
+   "Name": "Angle Stop Shut Off Valve- Replace all in home (Up to 12)",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "B-1-1.25",
+   "Name": "2 Handle (4\" Spread)",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-2-1.25",
+   "Name": "Center Set (Single Hole Faucet) (with sprayer)",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-3-1.0",
+   "Name": "Owner Supplied Faucet (4\" or single hole)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-4-1.5",
+   "Name": "Owner Supplied Faucet (wide spread)",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "B-5-1.25",
+   "Name": "P - Trap",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-6-1.25",
+   "Name": "Pop- Up Assembly",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-7-1.0",
+   "Name": "Angle Stop Shut Off Valve",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-8-1.0",
+   "Name": "Angle Stop Shut off Valve Hot & Cold",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-9-1.25",
+   "Name": "Single Handle (4\" Spread)",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-10-1.0",
+   "Name": "Supply Line",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-11-1.0",
+   "Name": "Supply Lines (Hot & Cold)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-12-1.0",
+   "Name": "Threaded Tailpiece",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-13-1.5",
+   "Name": "Wide Spread",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "B-14-3.0",
+   "Name": "Install Shower Valve",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "B-15-1.0",
+   "Name": "Shower Head Provide and Install",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-16-3.0",
+   "Name": "Owner supplied Shower Valve",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "B-17-1.0",
+   "Name": "Tub Spout",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-18-2.0",
+   "Name": "Waste and Overflow Replacement from Crawl Space",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "B-19-2.0",
+   "Name": "Waste and Overflow Replacement from Ceiling",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "B-20-1.0",
+   "Name": "Shower Cartridge Replacement (Delta, Moen or Common only)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-21-1.0",
+   "Name": "Fill Valve and Supply Line",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-22-1.0",
+   "Name": "Toilet Tank / Flapper",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-23-1.0",
+   "Name": "Flush Valve",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-24-1.0",
+   "Name": "Toilet Handle",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-25-2.0",
+   "Name": "Pressure Assist Toilet Rebuild",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "B-26-1.0",
+   "Name": "Angle Stop Shut Off Valve",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-27-1.0",
+   "Name": "Supply Line",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-28-1.0",
+   "Name": "Tall/ Elongated (ADA) 2 Piece (Kohler)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-29-1.0",
+   "Name": "Standard 2 piece (gravity flush) toilet",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-30-1.25",
+   "Name": "Remove Object from Toilet",
+   "Standard times (In Hours)": 1.25
+ },
+ {
+   "Code": "B-31-1.5",
+   "Name": "Urinal Stoppage Through Urinal",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "B-32-2.0",
+   "Name": "Urinal Stoppage Remove and Clear",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "B-33-1.0",
+   "Name": "Install Toto ADA Ultramax ",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-34-1.0",
+   "Name": "Replace Toilet Wax Seal and bolts",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-35-1.0",
+   "Name": "Toilet Clog/ Backup",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-36-3.0",
+   "Name": "Angle Stop Shut Off Valve/ Replacement for all angle stops in home (up to 12)",
+   "Standard times (In Hours)": 3
+ },
+ {
+   "Code": "B-37-1.0",
+   "Name": "Customer-supplied Standard 2 piece toilet",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "B-38-1.0",
+   "Name": "Owner supplied Shower Head",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "P-1-2.5",
+   "Name": "Standard Storm Water Sump Pump Swap",
+   "Standard times (In Hours)": 2.5
+ },
+ {
+   "Code": "P-2-2.0",
+   "Name": "110V Back Up Alarm System for Submergible Sump Pump (Swap)",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "P-3-2.5",
+   "Name": "Sewer Sump Pump Swap",
+   "Standard times (In Hours)": 2.5
+ },
+ {
+   "Code": "G-1-1.5",
+   "Name": "Gas Repair Minimum Charge (without permits or city inspection)",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "G-2-1.5",
+   "Name": "Install Earthquake Valve 3/4\"",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "G-3-1.5",
+   "Name": "Install Earthquake Valve 1\"",
+   "Standard times (In Hours)": 1.5
+ },
+ {
+   "Code": "G-4-2.0",
+   "Name": "Install Earthquake Valve 1 1/4\"",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "G-5-1.0",
+   "Name": "Gas Line Pressure Test (no reprairs and no permits)",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "G-6",
+   "Name": "Install Gas Line Above Ground or Crawl Space",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "G-7",
+   "Name": "Install Gas Line Under Ground using Polyethelene Piping",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-1-4.5",
+   "Name": "Clean Out 2Way - Standard",
+   "Standard times (In Hours)": 4.5
+ },
+ {
+   "Code": "S-2-4.5",
+   "Name": "Clean Out 2Way",
+   "Standard times (In Hours)": 4.5
+ },
+ {
+   "Code": "S-3-6.0",
+   "Name": "Property Line Clean Out - West Bay",
+   "Standard times (In Hours)": 6
+ },
+ {
+   "Code": "S-4-5.0",
+   "Name": "Property Line Clean Out - Standard",
+   "Standard times (In Hours)": 5
+ },
+ {
+   "Code": "S-5",
+   "Name": "Upper Sewer Lateral Open Trench/ Lower Sewer Lateral Trenchless - 5' T-CUT",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-6",
+   "Name": "Upper Sewer Lateral Open Trench",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-7",
+   "Name": "Backyard Upper Lateral Trenchless/ Lower lateral Open Trench",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-8",
+   "Name": "Backyard Lower Lateral Open Trench",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-9",
+   "Name": "Upper Sewer Lateral Trenchless",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-10",
+   "Name": "Upper and Lower Sewer Lateral Open Trench - 5' T-CUT",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-11",
+   "Name": "Upper and Lower Sewer Lateral Trenchless - 5' T-CUT",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-12",
+   "Name": "Lower Sewer Lateral Open Trench - 5' T-CUT",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-13",
+   "Name": "Lower Sewer Lateral Trenchless - 5' T-CUT",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-14",
+   "Name": "Upper Sewer Lateral Open Trench/ Lower Sewer Lateral Trenchless",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-15",
+   "Name": "Upper and Lower Sewer Lateral Open Trench",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-16",
+   "Name": "Upper and Lower Sewer Lateral Trenchless",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-17",
+   "Name": "Lower Sewer Lateral Open Trench",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-18",
+   "Name": "Lower Sewer Lateral Trenchless",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-19",
+   "Name": "Wye branch installation",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-20",
+   "Name": "Pothole",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "S-21-1.0",
+   "Name": "Line Location from Clean Out (upto 100')",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "S-22-1.0",
+   "Name": "Line Location from Clean Out (more than 100')",
+   "Standard times (In Hours)": 1
+ },
+ {
+   "Code": "ReP - 1",
+   "Name": "Copper (L) Re-pipe",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 2",
+   "Name": "Gas Re-Pipe",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 3",
+   "Name": "Re-Drain Under House 1 BATHROOM",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 4",
+   "Name": "Re-Drain Under House up to 2 BATHROOMS",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 5",
+   "Name": "Re-Drain Under House  up to 4 BATHROOMS",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 6",
+   "Name": "Re-Drain Under House up to 3 BATHROOMs",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 7",
+   "Name": "PREMIUM Home Re-Drain  Up to 3 BATHROOMS",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 8",
+   "Name": "Re-Drain Pipes Under Slab",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "ReP- 9",
+   "Name": "Shower Valves Replacement During Re-Pipe",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "WM-1-2.0",
+   "Name": "Pressure Regulating Valve (up to 1\")",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "WM-2",
+   "Name": "High Water Pressure",
+   "Standard times (In Hours)": null
+ },
+ {
+   "Code": "WM-3-2.0",
+   "Name": "Replace Ball Valve for Water Main",
+   "Standard times (In Hours)": 2
+ },
+ {
+   "Code": "WM-4",
+   "Name": "Replace Water Main",
+   "Standard times (In Hours)": null
+ }
+]

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNICIAN POTENTIAL COMMISSION CALCULATOR - BAYSHORE PLUMBERS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
+</head>
+<body>
+    <h1>TECHNICIAN POTENTIAL COMMISSION CALCULATOR - BAYSHORE PLUMBERS</h1>
+    <div class="logo-container">
+        <img src="BP.png" alt="BP" class="logo">
+    </div>
+    <div class="calculator">
+        <form>
+            <!-- Managerial Assistance Button -->
+            <button id="managerialAssistanceBtn" class="large-button red" aria-label="Toggle Managerial Assistance">NON-ASSISTED SALE</button>
+
+            <div class="row">
+                <div class="column">
+                    <label for="tn">TECHNICIAN'S NAME:</label>
+                    <input type="text" id="tn" name="tn" placeholder="Enter the Technician's name here" aria-label="Technician's Name">
+                    
+                    <label for="in">INVOICE NUMBER:</label>
+                    <input type="text" id="in" name="in" placeholder="Enter the invoice number here" aria-label="Invoice Number">
+                    
+                    <label for="tp">TOTAL PRICE:</label>
+                    <input type="number" id="tp" name="tp" placeholder="Enter the final selling price of the job" min="0" aria-label="Total Price">
+                    
+                    <label for="pd">PROJECT DURATION (Hours):</label>
+                    <input type="number" id="pd" name="pd" placeholder="Enter Final Project Duration" min="0" aria-label="Project Duration">
+                </div>
+                <div class="column">
+                    <label for="material">MATERIAL EXPENSES:</label>
+                    <input type="number" id="material" name="material" placeholder="Enter Estimated MATERIAL EXPENSES" min="0" aria-label="Material Expenses">
+                    
+                    <label for="ja">JOB ADDRESS:</label>
+                    <input type="text" id="ja" name="ja" placeholder="Enter job address here" aria-label="Job Address">
+                    
+                    <label for="oe">OTHER EXPENSE:</label>
+                    <input type="number" id="oe" name="oe" placeholder="Enter Other Expenses" aria-label="Other Expenses">
+                    
+                    <label for="date">DATE:</label>
+                    <input type="date" id="date" name="date" placeholder="Enter Date" aria-label="Date of Service">
+                </div>
+            </div>
+
+            <!-- New Job Type dropdown -->
+            <div class="row">
+                <label for="jobTypeSelect">JOB TYPE:</label>
+                <select id="jobTypeSelect" aria-label="Select the Job Type">
+                    <option value="">-- Select a Job Type --</option>
+                    <!-- Populated dynamically via JS (techcomscript.js) -->
+                </select>
+            </div>
+            
+            <div class="row labor-details-row">
+                <h5>LABOR DETAILS</h5>
+                <div class="column">
+                    <label for="day1">DAY 1:</label>
+                    <input type="number" id="day1" name="day1" min="0" aria-label="Labor Day 1 Hours">
+                    
+                    <label for="day2">DAY 2:</label>
+                    <input type="number" id="day2" name="day2" min="0" aria-label="Labor Day 2 Hours">
+                    
+                    <label for="day3">DAY 3:</label>
+                    <input type="number" id="day3" name="day3" min="0" aria-label="Labor Day 3 Hours">
+                    
+                    <label for="day4">DAY 4:</label>
+                    <input type="number" id="day4" name="day4" min="0" aria-label="Labor Day 4 Hours">
+                </div>
+                <div class="column">
+                    <label for="day5">DAY 5:</label>
+                    <input type="number" id="day5" name="day5" min="0" aria-label="Labor Day 5 Hours">
+                    
+                    <label for="ah">Additional Hours:</label>
+                    <input type="number" id="ah" name="ah" min="0" aria-label="Additional Hours">
+                    
+                    <label for="toh">Total Overtime Hours:</label>
+                    <input type="number" id="toh" name="toh" min="0" aria-label="Total Overtime Hours">
+                    
+                    <label for="totalHours">Total Hours:</label>
+                    <input type="number" id="totalHours" name="totalHours" readonly aria-label="Total Labor Hours Calculated">
+                </div>
+            </div>
+
+            <div class="row notes-section">
+                <h5>JOB EXPLANATION & NOTES:</h5>
+                <textarea id="notes" name="notes" rows="4" placeholder="Enter Notes Here" aria-label="Job Explanation and Notes"></textarea>
+            </div>
+
+            <div class="question-section">
+                <div id="question1">
+                    <label>Is the payment received?</label>
+                    <button type="button" onclick="handleAnswer('yes', 1)" aria-label="Answer Yes to Payment Received">Yes</button>
+                    <button type="button" onclick="handleAnswer('no', 1)" aria-label="Answer No to Payment Received">No</button>
+                </div>
+            
+                <div id="question2" style="display:none;">
+                    <label>How was the payment received?</label>
+                    <button type="button" onclick="handleAnswer('cashOrDebit', 2)" aria-label="Payment Method Cash or Debit Card">Cash/Debit Card</button>
+                    <button type="button" onclick="handleAnswer('online', 2)" aria-label="Payment Method Online">Online</button>
+                    <button type="button" onclick="handleAnswer('check', 2)" aria-label="Payment Method Check">Check</button>
+                    <button type="button" onclick="handleAnswer('creditCard', 2)" aria-label="Payment Method Credit Card">Credit Card</button>
+                </div>
+            
+                <div id="question3" style="display:none;">
+                    <label>Is 3% credit card fees added?</label>
+                    <button type="button" onclick="handleAnswer('yes', 3)" aria-label="Credit Card Fee Added Yes">Yes</button>
+                    <button type="button" onclick="handleAnswer('no', 3)" aria-label="Credit Card Fee Added No">No</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <h5>FOR OFFICE USE ONLY</h5>
+                </div>
+            </div>
+            <div class="row office-use-section">
+                <div class="column">
+                    <label for="sw">SW21/RP21:</label>
+                    <input type="text" id="sw" name="sw" readonly>
+                </div>
+                <div class="column">
+                    <label for="wh">WH32:</label>
+                    <input type="text" id="wh" name="wh" readonly>
+                </div>
+                <div class="column">
+                    <label for="rd">RD15/UL15:</label>
+                    <input type="text" id="rd" name="rd" readonly>
+                </div>
+                <div class="column">
+                    <label for="bpp">BP%:</label>
+                    <input type="text" id="bpp" name="bpp" readonly>
+                </div>
+            </div>
+            <div class="output-group">
+                <p>Total Commission: <span id="totalCommission">0.00</span></p>
+                <p id="salesCommissionLabel" style="display: none;">Sales Commission: <span id="salesCommission">0.00</span></p>
+            </div>
+            <div class="row button-container">
+                <button type="button" id="calculateBtn" aria-label="Calculate Potential Commission">Calculate Potential Commission</button>
+                <button type="button" id="printButton" aria-label="Print Document">Print</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="techcomscript.js"></script>
+</body>
+</html>
